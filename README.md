@@ -35,17 +35,17 @@ Rules:
 
 ## How to run (once the branches are merged together)
 
-Needs Node.js 18+ and MySQL 8.
+Needs MySQL 8, Node.js 18+ for the server and Node.js 20.19+ for the client (Vite 8).
 
 ```bash
 # 1. Database: see database/setup_notes.md
-mysql -u root -p < database/schema/00_create_database.sql
-for f in database/schema/0[1-9]_*.sql database/schema/1[0-9]_*.sql; do mysql -u root -p g_link < "$f"; done
+sh database/setup_all.sh -u root -p
 
 # 2. API server (http://localhost:5000)
 cd server
 cp .env.example .env      # then fill in DB_USER, DB_PASSWORD, JWT_SECRET
 npm install
+npm run create-super-admin -- you@rub.edu.bt   # first account (asks for a password)
 npm run dev               # check http://localhost:5000/health and /health/db
 npm test
 
@@ -61,6 +61,9 @@ In VS Code, open `g-link.code-workspace` and use **Terminal → Run Task → dev
 ## Where things are
 
 - Progress: [`PROGRESS.md`](PROGRESS.md)
+- API: [`docs/api/README.md`](docs/api/README.md) · Emails: [`docs/email-texts`](docs/email-texts/README.md) · Security: [`docs/security`](docs/security/README.md)
+- Tests: [`docs/testing/test-report.md`](docs/testing/test-report.md) · User guides: [`docs/user-guides`](docs/user-guides)
+- Open questions: [`docs/requirements/decisions-and-assumptions.md`](docs/requirements/decisions-and-assumptions.md)
 - Wireframes: [`docs/wireframes/README.md`](docs/wireframes/README.md)
 - Database setup and naming rules: `database/setup_notes.md` (on the `database` branch)
 - UI parts and rules: `client/STYLE_GUIDE.md` (on the `frontend` branch)
