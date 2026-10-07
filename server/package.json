@@ -11,12 +11,18 @@
   "scripts": {
     "dev": "node --watch src/server.js",
     "start": "node src/server.js",
-    "test": "node --test"
+    "test": "node --test --test-concurrency=1",
+    "test:unit": "node --test tests/unit/*.test.js",
+    "test:integration": "node --test --test-concurrency=1 tests/integration/*.test.js",
+    "create-super-admin": "node scripts/createSuperAdmin.js"
   },
   "dependencies": {
+    "bcryptjs": "^3.0.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.2",
-    "mysql2": "^3.11.5"
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.11.5",
+    "nodemailer": "^10.0.16"
   }
 }
