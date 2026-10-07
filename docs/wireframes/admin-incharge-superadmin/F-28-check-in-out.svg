@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" font-family="Arial, Helvetica, sans-serif">
+<title>F-28 Check-in and check-out</title>
+<rect x="0" y="0" width="1000" height="560" rx="0" fill="#fff" stroke="#555"/>
+<rect x="0" y="0" width="1000" height="56" rx="0" fill="#f2f2f2" stroke="#999"/>
+<text x="24" y="35" font-size="20" font-weight="bold" fill="#333" text-anchor="start">G-Link</text>
+<text x="108" y="35" font-size="12" font-weight="normal" fill="#777" text-anchor="start">RUB Guest House Booking</text>
+<text x="976" y="35" font-size="12" font-weight="normal" fill="#777" text-anchor="end">Signed in as Incharge  ·  Sign out</text>
+<rect x="0" y="56" width="200" height="468" rx="0" fill="#f2f2f2" stroke="#999"/>
+<text x="20" y="93" font-size="13" font-weight="normal" fill="#333" text-anchor="start">Bookings</text>
+<text x="20" y="131" font-size="13" font-weight="normal" fill="#333" text-anchor="start">Today</text>
+<rect x="8" y="148" width="184" height="32" rx="4" fill="#555" stroke="#555"/>
+<text x="20" y="169" font-size="13" font-weight="bold" fill="#fff" text-anchor="start">Check-in/out</text>
+<text x="230" y="106" font-size="24" font-weight="bold" fill="#333" text-anchor="start">Check-in / check-out</text>
+<text x="230" y="140" font-size="13" font-weight="bold" fill="#333" text-anchor="start">Find booking</text><rect x="230" y="148" width="740" height="36" rx="4" fill="#fff" stroke="#999"/><text x="240" y="171" font-size="13" font-weight="normal" fill="#777" text-anchor="start">Ref, name or CID</text>
+<rect x="230" y="200" width="740" height="84" rx="4" fill="#f2f2f2" stroke="#999"/><text x="244" y="226" font-size="15" font-weight="bold" fill="#333" text-anchor="start">GL-0012 · Pema Wangmo</text><text x="244" y="250" font-size="13" font-weight="normal" fill="#333" text-anchor="start">Room A-102 · 12 → 14 Oct · 2 beds</text><text x="244" y="272" font-size="13" font-weight="normal" fill="#333" text-anchor="start">Bill: Nu. 1,200 · Unpaid</text>
+<text x="230.0" y="316" font-size="13" font-weight="bold" fill="#333" text-anchor="start">Payment method</text><rect x="230.0" y="324" width="362.0" height="36" rx="4" fill="#fff" stroke="#999"/><text x="240.0" y="347" font-size="13" font-weight="normal" fill="#777" text-anchor="start">Cash</text><text x="572.0" y="347" font-size="13" font-weight="normal" fill="#333" text-anchor="start">▾</text><text x="608.0" y="316" font-size="13" font-weight="bold" fill="#333" text-anchor="start">Receipt / ref no.</text><rect x="608.0" y="324" width="362.0" height="36" rx="4" fill="#fff" stroke="#999"/><text x="618.0" y="347" font-size="13" font-weight="normal" fill="#777" text-anchor="start"></text>
+<rect x="230" y="376" width="156" height="38" rx="4" fill="#fff" stroke="#555"/><text x="308.0" y="400" font-size="13" font-weight="bold" fill="#333" text-anchor="middle">Record payment</text><rect x="396" y="376" width="102" height="38" rx="4" fill="#555" stroke="#555"/><text x="447.0" y="400" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">Check in</text><rect x="508" y="376" width="111" height="38" rx="4" fill="#555" stroke="#555"/><text x="563.5" y="400" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">Check out</text>
+<rect x="0" y="524" width="1000" height="36" rx="0" fill="#e3e3e3" stroke="#999"/><text x="16" y="547" font-size="12" font-weight="bold" fill="#333" text-anchor="start">F-28 · Check-in and check-out</text><text x="984" y="547" font-size="12" font-weight="normal" fill="#777" text-anchor="end">Low-fidelity wireframe · G-Link</text>
+</svg>
