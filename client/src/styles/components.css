@@ -166,3 +166,9 @@
 .sg-swatch__colour { height: 48px; border-radius: var(--radius-md); border: 1px solid var(--color-border); }
 .sg-form { max-width: 420px; }
 .sg-gap { margin-top: var(--space-6); }
+
+/* ---------- Textarea and checkbox ---------- */
+.ui-textarea { min-height: 80px; resize: vertical; }
+.ui-check { display: flex; align-items: flex-start; gap: var(--space-2); }
+.ui-check input { width: 18px; height: 18px; margin: 3px 0 0; flex-shrink: 0; accent-color: var(--color-brand); }
+.ui-check label { cursor: pointer; }

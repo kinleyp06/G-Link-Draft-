@@ -8,6 +8,8 @@ import {
   Table,
   Modal,
   StatusBadge,
+  Textarea,
+  Checkbox,
   useToast,
 } from '../../components/ui';
 
@@ -125,6 +127,8 @@ export default function StyleGuide() {
           <Select label="Gender" placeholder="Choose…" options={['Male', 'Female', 'Other']} />
           <DatePicker label="Check-in date" min="2026-10-07" />
           <TextInput label="Disabled" defaultValue="Cannot change" disabled />
+          <Textarea label="Reason" help="Longer text, e.g. why a booking is rejected." />
+          <Checkbox label="I understand that I will share the room" />
           <Button type="submit">Check email</Button>
         </form>
       </section>

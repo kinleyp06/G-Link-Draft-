@@ -40,11 +40,19 @@ Import from one place: `import { Button, TextInput, useToast } from '../componen
 | `TextInput` | `label` (required), `error` (red, under the box, read out by screen readers), `help`, plus any `<input>` prop. |
 | `PasswordInput` | Same as TextInput with a Show / Hide button. |
 | `Select` | `options={['Male','Female']}` or `[{ value, label }]`, `placeholder`. |
+| `Textarea` | Same props as TextInput, for longer text (`rows`). |
+| `Checkbox` | `label` on the right, `checked`, `onChange`, `error`, `help`. |
 | `DatePicker` | Native date box; value is `YYYY-MM-DD`; use `min` / `max`. |
 | `Table` | `columns=[{ key, header, render? }]`, `rows`, `emptyMessage`, `caption`. Scrolls sideways inside itself on phones. |
 | `Modal` | `open`, `title`, `onClose`, `footer`. Closes with Escape or a click outside. Use it to confirm Approve / Reject / Cancel. |
 | `Toast` | Wrap the app in `<ToastProvider>`, then `const toast = useToast(); toast.success('Saved')`, `toast.error(...)`, `toast.info(...)`. Closes after 4 seconds. |
 | `StatusBadge` | Coloured pill for a booking status. |
+
+## Page building blocks (`src/components`)
+
+`PageHeader` (title, back link, actions), `Notice` (coloured message box), `Loading`, `ErrorMessage` (with *Try again*),
+`DefinitionList` (label / value pairs). Layout classes in `src/styles/layout.css`: `.grid--2/3/4`, `.form-row`,
+`.actions`, `.form-narrow`, `.stat`, `.tabs`, `.steps`.
 
 ## Rules
 

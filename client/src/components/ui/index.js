@@ -6,4 +6,6 @@ export { default as DatePicker } from './DatePicker.jsx';
 export { default as Table } from './Table.jsx';
 export { default as Modal } from './Modal.jsx';
 export { default as StatusBadge } from './StatusBadge.jsx';
+export { default as Textarea } from './Textarea.jsx';
+export { default as Checkbox } from './Checkbox.jsx';
 export { ToastProvider, useToast } from './Toast.jsx';
