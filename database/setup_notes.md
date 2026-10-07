@@ -22,16 +22,26 @@ mysql -u root -p         # log in with the root password
 From the repository root:
 
 ```bash
+sh database/setup_all.sh -u root -p        # every table + sample data, in order
+```
+
+Or one file at a time:
+
+```bash
 mysql -u root -p < database/schema/00_create_database.sql
 mysql -u root -p g_link < database/schema/01_users.sql
+# ... 02 to 12 in number order, then:
+mysql -u root -p g_link < database/seed/01_sample_data.sql
 ```
 
 Scripts are numbered; always run them in order. They use `IF NOT EXISTS`, so running them twice is safe.
+What each table is for: `data_model.md`.
 
-Optional check that the users rules work (prints PASS/FAIL, removes its own test rows):
+Checks (print PASS/FAIL and remove their own test rows):
 
 ```bash
 mysql -u root -p g_link < database/tests/01_users_checks.sql
+mysql -u root -p g_link < database/tests/02_booking_rules_checks.sql
 ```
 
 ## 3. Give each member their own login
@@ -76,3 +86,7 @@ DB_NAME=g_link
 | `schema/00_create_database.sql` | D-01 | Creates `g_link` (utf8mb4) and shows how to make a personal login |
 | `schema/01_users.sql` | D-03 | `users` table |
 | `tests/01_users_checks.sql` | D-03 | PASS/FAIL checks: duplicate email/CID refused, role limited to 4 values |
+| `schema/02` … `schema/12` | D-04 … D-14 | The other eleven tables (see `data_model.md`) |
+| `seed/01_sample_data.sql` | D-15 | Sample guest houses, rooms, hall and rates |
+| `tests/02_booking_rules_checks.sql` | D-15 | PASS/FAIL checks for the booking tables |
+| `setup_all.sh` | D-15 | Runs everything in order |
