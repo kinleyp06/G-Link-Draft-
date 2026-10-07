@@ -2,13 +2,17 @@ import express from 'express';
 import cors from 'cors';
 import { testConnection } from './config/db.js';
 import { notFound, errorHandler } from './middleware/errorHandler.js';
+import { securityHeaders } from './middleware/securityHeaders.js';
+import { apiRouter } from './routes/index.js';
 
 // checkDb can be swapped in tests so they do not need MySQL.
-export function createApp({ clientUrl, checkDb = testConnection } = {}) {
+export function createApp({ clientUrl, checkDb = testConnection, rateLimits = true } = {}) {
   const app = express();
 
+  app.disable('x-powered-by');
+  app.use(securityHeaders);
   app.use(cors({ origin: clientUrl }));
-  app.use(express.json());
+  app.use(express.json({ limit: '100kb' }));
 
   app.get('/health', (req, res) => {
     res.json({ status: 'ok' });
@@ -20,7 +24,7 @@ export function createApp({ clientUrl, checkDb = testConnection } = {}) {
     return res.status(503).json({ message: result.message, code: 'DB_DOWN' });
   });
 
-  // Feature routes are mounted under /api here later, e.g. app.use('/api/auth', authRoutes)
+  app.use('/api', apiRouter({ limits: rateLimits }));
 
   app.use(notFound);
   app.use(errorHandler);
