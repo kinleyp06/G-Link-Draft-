@@ -18,6 +18,9 @@ export function getPool() {
       connectionLimit: 10,
       connectTimeout: 5000,
       charset: 'utf8mb4',
+      // DATE / DATETIME come back as plain strings ('2026-10-12'), DECIMAL as numbers
+      dateStrings: true,
+      decimalNumbers: true,
     });
   }
   return pool;
@@ -30,6 +33,22 @@ export async function testConnection() {
     return { ok: true, message: 'Connected to the database.' };
   } catch (err) {
     return { ok: false, message: describeDbError(err) };
+  }
+}
+
+// Runs fn(conn) inside a transaction; commits if it finishes, rolls back if it throws.
+export async function withTransaction(fn) {
+  const conn = await getPool().getConnection();
+  try {
+    await conn.beginTransaction();
+    const result = await fn(conn);
+    await conn.commit();
+    return result;
+  } catch (err) {
+    await conn.rollback();
+    throw err;
+  } finally {
+    conn.release();
   }
 }
 

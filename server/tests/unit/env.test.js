@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { loadConfig } from '../../src/config/env.js';
 
-const minimal = { DB_HOST: 'localhost', DB_USER: 'glink_test', DB_NAME: 'g_link' };
+const minimal = { DB_HOST: 'localhost', DB_USER: 'glink_test', DB_NAME: 'g_link', JWT_SECRET: 'test-secret' };
 
 test('fills in defaults', () => {
   const config = loadConfig(minimal);
@@ -27,7 +27,7 @@ test('uses given values', () => {
 
 test('lists every missing required setting', () => {
   assert.throws(() => loadConfig({}), {
-    message: /Missing settings in server\/\.env: DB_HOST, DB_USER, DB_NAME/,
+    message: /Missing settings in server\/\.env: DB_HOST, DB_USER, DB_NAME, JWT_SECRET/,
   });
 });
 
