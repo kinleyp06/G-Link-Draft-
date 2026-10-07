@@ -1,6 +1,6 @@
 # G-Link web client
 
-React 19 + Vite + React Router. Owner: Tandin.
+React 19 + Vite 8 + React Router 7. Owner: Tandin. Needs Node.js 20.19 or newer (Vite 8).
 
 ```bash
 npm install

@@ -4,6 +4,9 @@
   "private": true,
   "description": "G-Link guest house booking system - web client",
   "type": "module",
+  "engines": {
+    "node": ">=20.19"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
