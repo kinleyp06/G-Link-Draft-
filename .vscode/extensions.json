@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "mtxr.sqltools",
+    "mtxr.sqltools-driver-mysql"
+  ]
+}
