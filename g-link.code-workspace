@@ -1,0 +1,14 @@
+{
+  "folders": [
+    { "name": "G-Link (root)", "path": "." },
+    { "name": "client", "path": "client" },
+    { "name": "server", "path": "server" },
+    { "name": "database", "path": "database" },
+    { "name": "docs", "path": "docs" }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "files.exclude": { "**/node_modules": true, "**/dist": true }
+  }
+}

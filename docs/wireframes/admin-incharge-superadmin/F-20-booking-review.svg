@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="604" viewBox="0 0 1000 604" font-family="Arial, Helvetica, sans-serif">
+<title>F-20 Booking review (Approve / Reject)</title>
+<rect x="0" y="0" width="1000" height="604" rx="0" fill="#fff" stroke="#555"/>
+<rect x="0" y="0" width="1000" height="56" rx="0" fill="#f2f2f2" stroke="#999"/>
+<text x="24" y="35" font-size="20" font-weight="bold" fill="#333" text-anchor="start">G-Link</text>
+<text x="108" y="35" font-size="12" font-weight="normal" fill="#777" text-anchor="start">RUB Guest House Booking</text>
+<text x="976" y="35" font-size="12" font-weight="normal" fill="#777" text-anchor="end">Signed in as Admin  ·  Sign out</text>
+<rect x="0" y="56" width="200" height="512" rx="0" fill="#f2f2f2" stroke="#999"/>
+<text x="20" y="93" font-size="13" font-weight="normal" fill="#333" text-anchor="start">Dashboard</text>
+<rect x="8" y="110" width="184" height="32" rx="4" fill="#555" stroke="#555"/>
+<text x="20" y="131" font-size="13" font-weight="bold" fill="#fff" text-anchor="start">Booking requests</text>
+<text x="20" y="169" font-size="13" font-weight="normal" fill="#333" text-anchor="start">Extension requests</text>
+<text x="20" y="207" font-size="13" font-weight="normal" fill="#333" text-anchor="start">International booking</text>
+<text x="20" y="245" font-size="13" font-weight="normal" fill="#333" text-anchor="start">Block rooms/beds</text>
+<text x="20" y="283" font-size="13" font-weight="normal" fill="#333" text-anchor="start">Change room</text>
+<text x="20" y="321" font-size="13" font-weight="normal" fill="#333" text-anchor="start">Rooms &amp; hall</text>
+<text x="20" y="359" font-size="13" font-weight="normal" fill="#333" text-anchor="start">Rate table</text>
+<text x="230" y="94" font-size="13" font-weight="normal" fill="#2e4a7a" text-anchor="start">← Booking requests</text>
+<text x="230" y="136" font-size="24" font-weight="bold" fill="#333" text-anchor="start">Review GL-0012</text>
+<rect x="230.0" y="156" width="362.0" height="106" rx="4" fill="#f2f2f2" stroke="#999"/><text x="244.0" y="182" font-size="15" font-weight="bold" fill="#333" text-anchor="start">Guest</text><text x="244.0" y="206" font-size="13" font-weight="normal" fill="#333" text-anchor="start">Pema Wangmo · RUB staff</text><text x="244.0" y="228" font-size="13" font-weight="normal" fill="#333" text-anchor="start">pema@rub.edu.bt · 17xxxxxx</text><text x="244.0" y="250" font-size="13" font-weight="normal" fill="#333" text-anchor="start">Purpose: workshop</text><rect x="608.0" y="156" width="362.0" height="106" rx="4" fill="#f2f2f2" stroke="#999"/><text x="622.0" y="182" font-size="15" font-weight="bold" fill="#333" text-anchor="start">Stay</text><text x="622.0" y="206" font-size="13" font-weight="normal" fill="#333" text-anchor="start">Room A-102 (Dormitory)</text><text x="622.0" y="228" font-size="13" font-weight="normal" fill="#333" text-anchor="start">12 → 14 Oct 2026 · 2 beds</text><text x="622.0" y="250" font-size="13" font-weight="normal" fill="#333" text-anchor="start">Free beds on dates: 3</text>
+<rect x="230" y="280" width="740" height="62" rx="4" fill="#f2f2f2" stroke="#999"/><text x="244" y="306" font-size="15" font-weight="bold" fill="#333" text-anchor="start">Bill</text><text x="244" y="330" font-size="13" font-weight="normal" fill="#333" text-anchor="start">2 nights × 2 beds × Nu. 300 = Nu. 1,200</text>
+<text x="230" y="374" font-size="13" font-weight="bold" fill="#333" text-anchor="start">Note to guest (needed when rejecting)</text><rect x="230" y="382" width="740" height="80" rx="4" fill="#fff" stroke="#999"/>
+<rect x="230" y="478" width="93" height="38" rx="4" fill="#555" stroke="#555"/><text x="276.5" y="502" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">Approve</text><rect x="333" y="478" width="90" height="38" rx="4" fill="#a44" stroke="#555"/><text x="378.0" y="502" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">Reject</text>
+<rect x="0" y="568" width="1000" height="36" rx="0" fill="#e3e3e3" stroke="#999"/><text x="16" y="591" font-size="12" font-weight="bold" fill="#333" text-anchor="start">F-20 · Booking review (Approve / Reject)</text><text x="984" y="591" font-size="12" font-weight="normal" fill="#777" text-anchor="end">Low-fidelity wireframe · G-Link</text>
+</svg>
