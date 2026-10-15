@@ -1,0 +1,42 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "server: dev",
+      "type": "npm",
+      "script": "dev",
+      "path": "server",
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "server: test",
+      "type": "npm",
+      "script": "test",
+      "path": "server",
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "client: dev",
+      "type": "npm",
+      "script": "dev",
+      "path": "client",
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "client: build",
+      "type": "npm",
+      "script": "build",
+      "path": "client",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "dev: server + client",
+      "dependsOn": ["server: dev", "client: dev"],
+      "problemMatcher": []
+    }
+  ]
+}

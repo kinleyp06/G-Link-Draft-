@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" font-family="Arial, Helvetica, sans-serif">
+<title>F-16 Booking detail</title>
+<rect x="0" y="0" width="1000" height="560" rx="0" fill="#fff" stroke="#555"/>
+<rect x="0" y="0" width="1000" height="56" rx="0" fill="#f2f2f2" stroke="#999"/>
+<text x="24" y="35" font-size="20" font-weight="bold" fill="#333" text-anchor="start">G-Link</text>
+<text x="108" y="35" font-size="12" font-weight="normal" fill="#777" text-anchor="start">RUB Guest House Booking</text>
+<text x="976" y="35" font-size="12" font-weight="normal" fill="#777" text-anchor="end">Signed in as Guest  ·  Sign out</text>
+<rect x="0" y="56" width="200" height="468" rx="0" fill="#f2f2f2" stroke="#999"/>
+<text x="20" y="93" font-size="13" font-weight="normal" fill="#333" text-anchor="start">Rooms</text>
+<rect x="8" y="110" width="184" height="32" rx="4" fill="#555" stroke="#555"/>
+<text x="20" y="131" font-size="13" font-weight="bold" fill="#fff" text-anchor="start">My bookings</text>
+<text x="20" y="169" font-size="13" font-weight="normal" fill="#333" text-anchor="start">Meeting hall</text>
+<text x="20" y="207" font-size="13" font-weight="normal" fill="#333" text-anchor="start">Profile</text>
+<text x="230" y="94" font-size="13" font-weight="normal" fill="#2e4a7a" text-anchor="start">← My bookings</text>
+<text x="230" y="136" font-size="24" font-weight="bold" fill="#333" text-anchor="start">Booking GL-0009 · Approved</text>
+<rect x="230.0" y="156" width="362.0" height="106" rx="4" fill="#f2f2f2" stroke="#999"/><text x="244.0" y="182" font-size="15" font-weight="bold" fill="#333" text-anchor="start">Stay</text><text x="244.0" y="206" font-size="13" font-weight="normal" fill="#333" text-anchor="start">Room B-201, CST Guest House</text><text x="244.0" y="228" font-size="13" font-weight="normal" fill="#333" text-anchor="start">20 Oct → 22 Oct 2026 (2 nights)</text><text x="244.0" y="250" font-size="13" font-weight="normal" fill="#333" text-anchor="start">Beds: 1</text><rect x="608.0" y="156" width="362.0" height="106" rx="4" fill="#f2f2f2" stroke="#999"/><text x="622.0" y="182" font-size="15" font-weight="bold" fill="#333" text-anchor="start">Bill</text><text x="622.0" y="206" font-size="13" font-weight="normal" fill="#333" text-anchor="start">Total: Nu. 1,400</text><text x="622.0" y="228" font-size="13" font-weight="normal" fill="#333" text-anchor="start">Payment: Unpaid</text><text x="622.0" y="250" font-size="13" font-weight="normal" fill="#333" text-anchor="start">Pay at check-in</text>
+<rect x="230" y="280" width="740" height="84" rx="4" fill="#f2f2f2" stroke="#999"/><text x="244" y="306" font-size="15" font-weight="bold" fill="#333" text-anchor="start">Guests</text><text x="244" y="330" font-size="13" font-weight="normal" fill="#333" text-anchor="start">1. You</text><text x="244" y="352" font-size="13" font-weight="normal" fill="#333" text-anchor="start">2. Pema Wangmo</text>
+<rect x="230" y="382" width="192" height="38" rx="4" fill="#fff" stroke="#555"/><text x="326.0" y="406" font-size="13" font-weight="bold" fill="#333" text-anchor="middle">Ask to stay longer</text><rect x="432" y="382" width="156" height="38" rx="4" fill="#a44" stroke="#555"/><text x="510.0" y="406" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">Cancel booking</text>
+<rect x="0" y="524" width="1000" height="36" rx="0" fill="#e3e3e3" stroke="#999"/><text x="16" y="547" font-size="12" font-weight="bold" fill="#333" text-anchor="start">F-16 · Booking detail</text><text x="984" y="547" font-size="12" font-weight="normal" fill="#777" text-anchor="end">Low-fidelity wireframe · G-Link</text>
+</svg>
